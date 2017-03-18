@@ -21,22 +21,23 @@ gulp.task('bs-reload', function () {
 gulp.task('serve', function() {
   browserSync({
     server: {
-      baseDir: 'build'
+      baseDir: '../realtors-to-the-rescue-theme/'
     },
     reloadDelay: 1000
   });
 });
 
 // comple scss into css, autoprefix and minify
-var sass = require('gulp-sass');
  
 gulp.task('sass', function () {
-    gulp.src('../../realtors-to-the-rescue-theme/sass/*.scss')
+    gulp.src('../realtors-to-the-rescue-theme/sass/style.scss')
         .pipe(plugins.sass().on('error', plugins.sass.logError))
         .pipe(plugins.autoprefixer('last 4 versions'))
-        .pipe(gulp.dest('../realtors-to-the-rescue-theme/sass/style.scss'))
+        .pipe(gulp.dest('../realtors-to-the-rescue-theme/sass/'))
  
 });
+
+
 
 // add images to build
 gulp.task('img', function() {
@@ -63,7 +64,7 @@ gulp.task('default', ['sass', 'js', 'bs-reload', 'img', 'serve', 'watch']);
 //watch task
 
 gulp.task('watch', function() {
-  gulp.watch('../../realtors-to-the-rescue-theme/sass/*.scss', ['sass']);
+  gulp.watch('../realtors-to-the-rescue-theme/sass/*.scss', ['sass']);
   gulp.watch('js/src/*.js', ['js']);
   gulp.watch('img/src/*.{png,jpg,gif}', ['img']);
  
