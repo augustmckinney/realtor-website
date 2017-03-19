@@ -6,6 +6,57 @@ footer {
     height: 130px;
     padding: 0 $desktop-gutter;
     width: 100%;
+
+    display: flex;
+    align-items: center;
+
+    form {
+      flex-direction: row;
+      margin: 0 auto;
+    
+      label {
+        color: $white;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        margin-right: 56px;
+        text-transform: uppercase;
+      }
+
+      input {
+        background: transparent;
+        border-radius: 0;
+        border: none; 
+        color: $text-gray; 
+        margin-right: 56px;
+        width: 300px;     
+      
+        &:focus {
+          color: $text-gray; 
+          outline: 1px solid $text-gray;
+        }
+      }
+
+      input[type="submit"] {
+        background: $green;
+        border-radius: 50px;
+        color: $white;
+        height: 40px;
+        text-transform: uppercase;
+        width: 140px;
+
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 16px;
+        font-weight: 600;    
+        line-height: 40px;
+        padding: 0;
+
+
+        &:focus {
+          outline: none;
+        }
+      }
+    }
   }
 
   .site-info {

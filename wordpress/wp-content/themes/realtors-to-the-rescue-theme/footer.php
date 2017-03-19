@@ -14,10 +14,16 @@
 	</div><!-- #content -->
 
 	<footer class="site-footer" role="contentinfo">
-		<!--Top-->
+		<!--
+    Sign Up for Newsletter
     <div class="footer-newsletter">
-      
-    </div>  
+      <form action="">
+        <label>Newsletter Sign-Up</label>
+        <input type="text" name="email" placeholder="Enter Email">
+        <input type="submit" value="Subscribe">
+      </form>
+    </div> 
+    --> 
 
     <!--Middle-->
     <div class="site-info">
