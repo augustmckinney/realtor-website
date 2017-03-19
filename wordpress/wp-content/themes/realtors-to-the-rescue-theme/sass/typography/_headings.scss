@@ -5,19 +5,19 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   color: $header-gray;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 32px;
-  font-weight: bold;
+  font-size: 30px;
+  font-weight: bold 700;
 }
 
 h2 {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 72px;
-  font-weight: bold;
+  font-weight: bold 700;
 }
 
 h3 {
   color: $text-gray;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
-  font-weight: semi-bold;
+  font-weight: semi-bold 600;
 }
