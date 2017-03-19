@@ -7,7 +7,7 @@ footer {
     padding: 0 $desktop-gutter;
     width: 100%;
 
-    display: flex;
+    @include flexbox();
     align-items: center;
 
     form {
@@ -61,22 +61,39 @@ footer {
 
   .site-info {
     background: #232323;
-    height: 355px; 
-    padding: 0 $desktop-gutter;  
-    width: 100%;  
+    height: 355px;
+    padding: 0 $desktop-gutter;
+    width: 100%;
   }
 
 
   .footer-bottom {
+    @include flexbox();
     background: #121212;
     height: 60px;
-    padding: 0 $desktop-gutter; 
-    width: 100%;  
-  
+    padding: 0 $desktop-gutter;
+    width: 100%;
+
     p {
+      flex: 7;
       line-height: 60px;
       margin: 0;
     }
-  }   
+
+    ul {
+      flex: 3;
+      line-height: 60px;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    
+      li {
+        color: $text-gray;
+        cursor: pointer;
+        display: inline-block;
+        font-size: 20px;
+        margin-right: 20px;
+      }
+    }
+  }
 }
- 

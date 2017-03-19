@@ -1044,7 +1044,7 @@ object {
 
 /* line 17, /Users/dtrumfio/Desktop/realtor-website/wordpress/wp-content/themes/realtors-to-the-rescue-theme/sass/layout/_grids.scss */
 .three-column {
-  width: 33.33%;
+  width: 31%;
 }
 
 /*--------------------------------------------------------------
@@ -1114,12 +1114,124 @@ footer .footer-bottom p {
 .homepage .help,
 .homepage .events,
 .homepage .sponsors {
-  margin: 50px;
+  padding: 0 50px;
+  max-width: 1366px;
 }
 
-/* line 28, /Users/dtrumfio/Desktop/realtor-website/wordpress/wp-content/themes/realtors-to-the-rescue-theme/sass/layout/_homepage.scss */
-.homepage .about .row {
+@media screen and (max-width: 960px) {
+  /* line 20, /Users/dtrumfio/Desktop/realtor-website/wordpress/wp-content/themes/realtors-to-the-rescue-theme/sass/layout/_homepage.scss */
+  .homepage .about,
+  .homepage .campaigns,
+  .homepage .help,
+  .homepage .events,
+  .homepage .sponsors {
+    padding: 0 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 20, /Users/dtrumfio/Desktop/realtor-website/wordpress/wp-content/themes/realtors-to-the-rescue-theme/sass/layout/_homepage.scss */
+  .homepage .about,
+  .homepage .campaigns,
+  .homepage .help,
+  .homepage .events,
+  .homepage .sponsors {
+    padding: 0 15px;
+  }
+}
+
+/* line 37, /Users/dtrumfio/Desktop/realtor-website/wordpress/wp-content/themes/realtors-to-the-rescue-theme/sass/layout/_homepage.scss */
+.homepage .about .row,
+.homepage .help .row {
   justify-content: space-between;
+}
+
+/* line 44, /Users/dtrumfio/Desktop/realtor-website/wordpress/wp-content/themes/realtors-to-the-rescue-theme/sass/layout/_homepage.scss */
+.homepage .help h3 {
+  margin-bottom: 65px;
+}
+
+/* line 48, /Users/dtrumfio/Desktop/realtor-website/wordpress/wp-content/themes/realtors-to-the-rescue-theme/sass/layout/_homepage.scss */
+.homepage .help .three-column {
+  text-align: center;
+}
+
+/* line 51, /Users/dtrumfio/Desktop/realtor-website/wordpress/wp-content/themes/realtors-to-the-rescue-theme/sass/layout/_homepage.scss */
+.homepage .help .three-column img {
+  margin-bottom: -63px;
+}
+
+/* line 55, /Users/dtrumfio/Desktop/realtor-website/wordpress/wp-content/themes/realtors-to-the-rescue-theme/sass/layout/_homepage.scss */
+.homepage .help .three-column.box {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 60px 20px 20px;
+  z-index: -1;
+}
+
+/* line 63, /Users/dtrumfio/Desktop/realtor-website/wordpress/wp-content/themes/realtors-to-the-rescue-theme/sass/layout/_homepage.scss */
+.homepage .help p {
+  text-align: center;
+}
+
+/* line 66, /Users/dtrumfio/Desktop/realtor-website/wordpress/wp-content/themes/realtors-to-the-rescue-theme/sass/layout/_homepage.scss */
+.homepage .help p strong {
+  color: #231f20;
+  text-transform: uppercase;
+}
+
+/* line 71, /Users/dtrumfio/Desktop/realtor-website/wordpress/wp-content/themes/realtors-to-the-rescue-theme/sass/layout/_homepage.scss */
+.homepage .help p a {
+  color: #6e876e;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+/* line 76, /Users/dtrumfio/Desktop/realtor-website/wordpress/wp-content/themes/realtors-to-the-rescue-theme/sass/layout/_homepage.scss */
+.homepage .help p a:hover {
+  color: #7d7d7d;
+}
+
+/* line 83, /Users/dtrumfio/Desktop/realtor-website/wordpress/wp-content/themes/realtors-to-the-rescue-theme/sass/layout/_homepage.scss */
+.homepage .members {
+  background-image: url(img/bg_greent_pitbull.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 120px;
+  padding: 1px 0 80px;
+}
+
+/* line 91, /Users/dtrumfio/Desktop/realtor-website/wordpress/wp-content/themes/realtors-to-the-rescue-theme/sass/layout/_homepage.scss */
+.homepage .members h1 {
+  color: #fff;
+}
+
+/* line 94, /Users/dtrumfio/Desktop/realtor-website/wordpress/wp-content/themes/realtors-to-the-rescue-theme/sass/layout/_homepage.scss */
+.homepage .members h1:after {
+  content: url(img/deco-white.png);
+}
+
+/* line 99, /Users/dtrumfio/Desktop/realtor-website/wordpress/wp-content/themes/realtors-to-the-rescue-theme/sass/layout/_homepage.scss */
+.homepage .members p {
+  color: #fff;
+  text-align: center;
+  padding: 0 50px;
+  max-width: 1366px;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 99, /Users/dtrumfio/Desktop/realtor-website/wordpress/wp-content/themes/realtors-to-the-rescue-theme/sass/layout/_homepage.scss */
+  .homepage .members p {
+    padding: 0 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 99, /Users/dtrumfio/Desktop/realtor-website/wordpress/wp-content/themes/realtors-to-the-rescue-theme/sass/layout/_homepage.scss */
+  .homepage .members p {
+    padding: 0 15px;
+  }
 }
 
 /*# sourceMappingURL=../style.map */
