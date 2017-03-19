@@ -1018,6 +1018,34 @@ object {
 }
 
 /*--------------------------------------------------------------
+# Grids
+--------------------------------------------------------------*/
+/* line 3, /Users/dtrumfio/Desktop/realtor-website/wordpress/wp-content/themes/realtors-to-the-rescue-theme/sass/layout/_grids.scss */
+.row {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+}
+
+/* line 8, /Users/dtrumfio/Desktop/realtor-website/wordpress/wp-content/themes/realtors-to-the-rescue-theme/sass/layout/_grids.scss */
+.left-column {
+  width: 50%;
+}
+
+/* line 12, /Users/dtrumfio/Desktop/realtor-website/wordpress/wp-content/themes/realtors-to-the-rescue-theme/sass/layout/_grids.scss */
+.right-column {
+  width: 50%;
+}
+
+/* line 16, /Users/dtrumfio/Desktop/realtor-website/wordpress/wp-content/themes/realtors-to-the-rescue-theme/sass/layout/_grids.scss */
+.three-column {
+  width: 33.33%;
+}
+
+/*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 /* line 3, /Users/dtrumfio/Desktop/realtor-website/wordpress/wp-content/themes/realtors-to-the-rescue-theme/sass/layout/_footer.scss */
@@ -1047,15 +1075,16 @@ footer .footer-bottom {
 /* line 3, /Users/dtrumfio/Desktop/realtor-website/wordpress/wp-content/themes/realtors-to-the-rescue-theme/sass/layout/_homepage.scss */
 .homepage h1 {
   text-align: center;
+  text-transform: uppercase;
 }
 
-/* line 6, /Users/dtrumfio/Desktop/realtor-website/wordpress/wp-content/themes/realtors-to-the-rescue-theme/sass/layout/_homepage.scss */
+/* line 7, /Users/dtrumfio/Desktop/realtor-website/wordpress/wp-content/themes/realtors-to-the-rescue-theme/sass/layout/_homepage.scss */
 .homepage h1:after {
   content: url(img/deco.png);
   display: block;
 }
 
-/* line 12, /Users/dtrumfio/Desktop/realtor-website/wordpress/wp-content/themes/realtors-to-the-rescue-theme/sass/layout/_homepage.scss */
+/* line 13, /Users/dtrumfio/Desktop/realtor-website/wordpress/wp-content/themes/realtors-to-the-rescue-theme/sass/layout/_homepage.scss */
 .homepage h3 {
   text-align: center;
   width: 100%;
