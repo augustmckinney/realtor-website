@@ -25,7 +25,6 @@
     </div> 
     --> 
 
-    <!--Middle-->
     <div class="site-info">
       <div class="row">
         <div class="footer-logo">logo</div>
