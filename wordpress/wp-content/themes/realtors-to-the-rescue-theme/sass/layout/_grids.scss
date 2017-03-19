@@ -1,4 +1,4 @@
-// 50 Percent Grids
+// Grids
 
 .row {
   @include flexbox();
@@ -15,5 +15,9 @@
 }
 
 .three-column {
-  width: 33.33%
+  width: 31%;
+}
+
+.four-column {
+  width: 24%;
 }
