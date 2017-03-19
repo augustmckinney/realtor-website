@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Events Page
+Template Name: Who We Help Page
 */
 ?>
 
@@ -9,7 +9,7 @@ Template Name: Events Page
   <div id="primary" class="content-area">
     <main id="main" class="site-main" role="main">
 
-
+    <h1>Who We Help</h1>
     </main><!-- #main -->
   </div><!-- #primary -->
 
