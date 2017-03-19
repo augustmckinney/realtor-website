@@ -60,12 +60,72 @@ footer {
   }
 
   .site-info {
+    @include flexbox();
     background: #232323;
     height: 355px; 
     padding: 0 $desktop-gutter;  
     width: 100%;  
-  }
+    align-content: space-between;
+    font-size: 14px;
 
+    .footer-logo {
+      flex: 8;
+      flex-direction: flex-start;
+    }
+
+    .instagram-header {
+      flex: 4;
+      flex-direction: flex-start;
+    }
+
+    .footer-content {
+      flex: 4;
+      flex-direction: flex-start;
+    }    
+
+    .footer-address {
+      flex: 2;
+    }
+
+    .instagram-feed {
+      flex: 4;
+      flex-direction: flex-end;
+    }
+
+    /*.footer-logo {
+      flex: 0 1 40%;
+    
+      p {
+        margin-top: 0;
+      }
+    }
+
+    .footer-address {
+      flex: 0 1 20%;
+      color: $text-gray;
+      display: inline-block;
+    
+      .ion-ios-location {
+        color: #ccc;
+        font-size: 20px;
+        display: inline-block;
+        vertical-align: top;
+      }
+
+      address {
+        display: inline-block;
+        margin: 0;
+      }
+    }
+
+    .instagram-feed {
+      flex: 0 1 40%;
+    }
+
+    .footer-nav {
+      
+    }*/
+  }
 
   .footer-bottom {
     @include flexbox();
@@ -94,7 +154,11 @@ footer {
         font-size: 20px;
         margin-right: 20px;
       }
+
+      a:focus {
+        outline: none;
+      }
     }
   }   
-}
+}/*close footer*/
  
