@@ -2,15 +2,16 @@
 
 .row {
   @include flexbox();
+  justify-content: space-between;
   width: 100%;
 }
 
 .left-column {
-  width: 50%;
+  width: 46%;
 }
 
 .right-column {
-  width: 50%;
+  width: 46%;
 }
 
 .three-column {
