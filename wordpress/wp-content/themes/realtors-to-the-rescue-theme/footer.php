@@ -16,7 +16,11 @@
 	<footer class="site-footer" role="contentinfo">
 		<!--Top-->
     <div class="footer-newsletter">
-      
+      <form action="">
+        <label>Newsletter Sign-Up</label>
+        <input type="text" name="email" placeholder="Enter Email">
+        <input type="submit" value="Subscribe">
+      </form>
     </div>  
 
     <!--Middle-->
