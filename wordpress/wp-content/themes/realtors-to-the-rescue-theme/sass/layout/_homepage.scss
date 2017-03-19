@@ -1,3 +1,15 @@
-h1:after {
+.homepage {
 
+  h1 {
+    text-align: center;
+
+    &:after {
+      content: url(img/deco.png);
+      display: block;
+    }
+  }
+
+  h3 {
+    text-align: center;
+  }
 }

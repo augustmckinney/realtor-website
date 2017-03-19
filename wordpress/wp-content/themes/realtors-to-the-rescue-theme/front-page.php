@@ -6,14 +6,14 @@
 get_header(); ?>
 
   <div id="primary" class="content-area">
-    <main id="main" class="site-main" role="main">
+    <main id="main" class="site-main homepage" role="main">
       <section class="slider">
-        <h1>Slider Goes Here</h1>
+        <h2>Slider Goes Here</h2>
       </section>
 
     <section class="about">
       <h1><?php the_field('about'); ?></h1>
-      <h4><?php the_field('about_subtitle'); ?></h4>
+      <h3><?php the_field('about_subtitle'); ?></h3>
       <div class="left-column">
         <p><?php the_field('about_copy'); ?></p>
       </div>
@@ -24,7 +24,7 @@ get_header(); ?>
 
     <section class="campaigns">
       <h1><?php the_field('campaigns'); ?></h1>
-      <h4><?php the_field('campaings_subtitle'); ?></h4>
+      <h3><?php the_field('campaings_subtitle'); ?></h3>
       <div>
         <p>Featured campaigns here</p>
       </div>
@@ -32,7 +32,7 @@ get_header(); ?>
 
     <section class="help-us">
       <h1><?php the_field('help'); ?></h1>
-      <h4><?php the_field('help_subtitle'); ?></h4>
+      <h3><?php the_field('help_subtitle'); ?></h3>
       <div class="3-column">
         <p>Card 1</p>
       </div>
@@ -44,14 +44,14 @@ get_header(); ?>
       </div>
     </section>
 
-    <section class="member">
-      <h1><?php the_field('member'); ?></h1>
-      <h4><?php the_field('member_subtitle'); ?></h4>
+    <section class="members">
+      <h1><?php the_field('members'); ?></h1>
+      <h3><?php the_field('members_subtitle'); ?></h3>
     </section>
 
     <section class="events">
       <h1><?php the_field('events'); ?></h1>
-      <h4><?php the_field('events_subtitle'); ?></h4>
+      <h3><?php the_field('events_subtitle'); ?></h3>
     </section>
 
     <section class="stats">
@@ -60,7 +60,7 @@ get_header(); ?>
 
     <section class="sponsors">
       <h1><?php the_field('sponsors'); ?></h1>
-      <h4><?php the_field('sponsors_subtitle'); ?></h4>
+      <h3><?php the_field('sponsors_subtitle'); ?></h3>
     </section>
 
     </main><!-- #main -->
