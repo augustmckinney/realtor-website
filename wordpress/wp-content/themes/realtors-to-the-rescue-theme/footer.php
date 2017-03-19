@@ -27,9 +27,36 @@
 
     <!--Middle-->
     <div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'realtors-to-the-rescue' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'realtors-to-the-rescue' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'realtors-to-the-rescue' ), 'realtors-to-the-rescue', '<a href="https://automattic.com/" rel="designer">Team Flair</a>' ); ?>
+      <div class="row">
+        <div class="footer-logo">logo</div>
+        <div class="instagram-header">
+          <h3>Gallery Instagram</h3>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="footer-content">content</div>
+        <div class="footer-address">address</div>
+        <div class="instagram-feed">instagram</div>
+      </div>
+
+      <!--<div class="footer-logo">
+        <p>
+          REALTORS&reg; To The Rescue is a 501(c)(3) not-for-profit organization. Our mission is to mobilize the REALTOR&reg; community to address and impact the plight of homeless pets. We are not a shelter or rescue organization. Rather, we are a volunteer-run, charitable service organization. 
+        </p>
+      </div>
+      <div class="footer-address">
+        <span class="ion-ios-location"></span>
+        <address>
+          2405 N. Sheffield Ave, #14075<br>
+          Chicago, IL 60614
+        </address>
+      </div>
+
+      <div class="instagram-feed">instagram images</div>-->
+
+      <!--<div class="footer-nav">site map</div>-->
+
 		</div>
 
     <div class="footer-bottom">
