@@ -61,9 +61,9 @@ footer {
 
   .site-info {
     background: #232323;
-    height: 355px; 
-    padding: 0 $desktop-gutter;  
-    width: 100%;  
+    height: 355px;
+    padding: 0 $desktop-gutter;
+    width: 100%;
   }
 
 
@@ -71,9 +71,9 @@ footer {
     @include flexbox();
     background: #121212;
     height: 60px;
-    padding: 0 $desktop-gutter; 
-    width: 100%;  
-  
+    padding: 0 $desktop-gutter;
+    width: 100%;
+
     p {
       flex: 7;
       line-height: 60px;
@@ -95,6 +95,5 @@ footer {
         margin-right: 20px;
       }
     }
-  }   
+  }
 }
- 

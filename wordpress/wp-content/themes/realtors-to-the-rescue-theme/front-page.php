@@ -37,20 +37,37 @@ get_header(); ?>
       <h3><?php the_field('help_subtitle'); ?></h3>
       <div class="row">
         <div class="three-column">
-          <p>Card 1</p>
+          <img src="wp-content/themes/realtors-to-the-rescue-theme/img/circle.png" alt="donate icon" />
         </div>
         <div class="three-column">
-          <p>Card 2</p>
+          <img src="wp-content/themes/realtors-to-the-rescue-theme/img/circle.png" alt="donate icon" />
         </div>
         <div class="three-column">
-          <p>Card 3</p>
+          <img src="wp-content/themes/realtors-to-the-rescue-theme/img/circle.png" alt="donate icon" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="three-column box">
+          <p><strong><?php the_field('box_1_title'); ?></strong></p>
+          <p><?php the_field('box_1_copy'); ?></p>
+          <p><a href="/donate">SEE MORE</a></p>
+        </div>
+        <div class="three-column box">
+          <p><strong><?php the_field('box_2_title'); ?></strong></p>
+          <p><?php the_field('box_2_copy'); ?></p>
+          <p><a href="/volunteer">SEE MORE</a></p>
+        </div>
+        <div class="three-column box">
+          <p><strong><?php the_field('box_3_title'); ?></strong></p>
+          <p><?php the_field('box_3_copy'); ?></p>
+          <p><a href="/sponsors">SEE MORE</a></p>
         </div>
       </div>
     </section>
 
     <section class="members">
       <h1><?php the_field('members'); ?></h1>
-      <h3><?php the_field('members_subtitle'); ?></h3>
+      <p><?php the_field('members_copy'); ?></p>
     </section>
 
     <section class="events">
