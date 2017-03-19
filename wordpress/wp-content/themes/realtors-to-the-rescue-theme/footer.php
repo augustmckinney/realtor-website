@@ -28,7 +28,7 @@
 
     <!--Bottom-->
     <div class="footer-bottom">
-      <p>&copy; 2017 – <?php echo date('Y'); ?> Realtors&reg; To The Rescue</p>
+      <p>&copy; 2017 – <?php echo date('Y'); ?> Realtors&reg; To The Rescue.  All rights reserved.</p>
     </div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
