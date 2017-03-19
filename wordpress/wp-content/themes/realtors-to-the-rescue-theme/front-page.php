@@ -7,8 +7,8 @@ get_header(); ?>
 
   <div id="primary" class="content-area">
     <main id="main" class="site-main homepage" role="main">
-      <section class="slider">
-        <h2>Slider Goes Here</h2>
+      <section class="slider" style="background-color: green;height: 100vh">
+        <p>Slider Goes Here</p>
       </section>
 
     <section class="about">
@@ -32,7 +32,7 @@ get_header(); ?>
       </div>
     </section>
 
-    <section class="help-us">
+    <section class="help">
       <h1><?php the_field('help'); ?></h1>
       <h3><?php the_field('help_subtitle'); ?></h3>
       <div class="row">
