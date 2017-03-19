@@ -14,11 +14,13 @@ get_header(); ?>
     <section class="about">
       <h1><?php the_field('about'); ?></h1>
       <h3><?php the_field('about_subtitle'); ?></h3>
-      <div class="left-column">
-        <p><?php the_field('about_copy'); ?></p>
-      </div>
-      <div class="right-column">
-        <p>Image File or Video goes Here</p>
+      <div class="row">
+        <div class="left-column">
+          <p><?php the_field('about_copy'); ?></p>
+        </div>
+        <div class="right-column">
+          <p>Image File or Video goes Here</p>
+        </div>
       </div>
     </section>
 
@@ -33,14 +35,16 @@ get_header(); ?>
     <section class="help-us">
       <h1><?php the_field('help'); ?></h1>
       <h3><?php the_field('help_subtitle'); ?></h3>
-      <div class="3-column">
-        <p>Card 1</p>
-      </div>
-      <div class="3-column">
-        <p>Card 2</p>
-      </div>
-      <div class="3-column">
-        <p>Card 3</p>
+      <div class="row">
+        <div class="three-column">
+          <p>Card 1</p>
+        </div>
+        <div class="three-column">
+          <p>Card 2</p>
+        </div>
+        <div class="three-column">
+          <p>Card 3</p>
+        </div>
       </div>
     </section>
 
@@ -52,10 +56,34 @@ get_header(); ?>
     <section class="events">
       <h1><?php the_field('events'); ?></h1>
       <h3><?php the_field('events_subtitle'); ?></h3>
+      <div class="row">
+        <div class="three-column">
+          <p>Card 1</p>
+        </div>
+        <div class="three-column">
+          <p>Card 2</p>
+        </div>
+        <div class="three-column">
+          <p>Card 3</p>
+        </div>
+      </div>
     </section>
 
     <section class="stats">
-    <p>Stats here</p>
+      <div class="row">
+        <div class="three-column">
+          <p>Stat 1</p>
+        </div>
+        <div class="three-column">
+          <p>Stat 2</p>
+        </div>
+        <div class="three-column">
+          <p>Stat 3</p>
+        </div>
+        <div class="three-column">
+          <p>Stat 4</p>
+        </div>
+      </div>
     </section>
 
     <section class="sponsors">
