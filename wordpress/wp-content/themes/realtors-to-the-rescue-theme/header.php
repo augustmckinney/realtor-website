@@ -19,6 +19,9 @@
 <!-- Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700" rel="stylesheet">
 
+<!-- Icons -->
+<link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+
 <?php wp_head(); ?>
 </head>
 

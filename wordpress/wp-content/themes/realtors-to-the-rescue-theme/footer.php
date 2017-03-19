@@ -14,10 +14,16 @@
 	</div><!-- #content -->
 
 	<footer class="site-footer" role="contentinfo">
-		<!--Top-->
+		<!--
+    Sign Up for Newsletter
     <div class="footer-newsletter">
-      
-    </div>  
+      <form action="">
+        <label>Newsletter Sign-Up</label>
+        <input type="text" name="email" placeholder="Enter Email">
+        <input type="submit" value="Subscribe">
+      </form>
+    </div> 
+    --> 
 
     <!--Middle-->
     <div class="site-info">
@@ -26,12 +32,15 @@
 			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'realtors-to-the-rescue' ), 'realtors-to-the-rescue', '<a href="https://automattic.com/" rel="designer">Team Flair</a>' ); ?>
 		</div>
 
-    <!--Bottom-->
     <div class="footer-bottom">
       <p>&copy; 2017 – <?php echo date('Y'); ?> Realtors&reg; To The Rescue.  All rights reserved.</p>
+      <ul>
+        <a href="https://www.facebook.com/RealtorsToTheRescue/" target="_blank"><li class="ion-social-facebook"></li></a>
+        <a href="https://www.instagram.com/realtorstotherescue/" target="_blank"><li class="ion-social-instagram"></li></a>
+      </ul>
     </div>
-	</footer><!-- #colophon -->
-</div><!-- #page -->
+	</footer>
+</div>
 
 <?php wp_footer(); ?>
 
