@@ -35,25 +35,25 @@
       </div>
 
       <div class="row">
-        <div class="footer-content">content</div>
-        <div class="footer-address">address</div>
-        <div class="instagram-feed">instagram</div>
-      </div>
+        <div class="footer-content">
+          <p>
+            REALTORS&reg; To The Rescue is a 501(c)(3) not-for-profit organization. Our mission is to mobilize the REALTOR&reg; community to address and impact the plight of homeless pets. We are not a shelter or rescue organization. Rather, we are a volunteer-run, charitable service organization. 
+          </p>          
+        </div>
+        <div class="footer-address">
+          <span class="ion-ios-location"></span>
+          <address>
+            2405 N. Sheffield Ave, #14075<br>
+            Chicago, IL 60614
+          </address>  
 
-      <!--<div class="footer-logo">
-        <p>
-          REALTORS&reg; To The Rescue is a 501(c)(3) not-for-profit organization. Our mission is to mobilize the REALTOR&reg; community to address and impact the plight of homeless pets. We are not a shelter or rescue organization. Rather, we are a volunteer-run, charitable service organization. 
-        </p>
-      </div>
-      <div class="footer-address">
-        <span class="ion-ios-location"></span>
-        <address>
-          2405 N. Sheffield Ave, #14075<br>
-          Chicago, IL 60614
-        </address>
-      </div>
+          <p><?php echo do_shortcode("[wp-social-likes]"); ?></p>
 
-      <div class="instagram-feed">instagram images</div>-->
+        </div>
+        <div class="instagram-feed">
+          <?php echo do_shortcode("[instagram-feed]"); ?>
+        </div>
+      </div>
 
       <!--<div class="footer-nav">site map</div>-->
 
