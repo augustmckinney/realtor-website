@@ -1,0 +1,19 @@
+// 50 Percent Grids
+
+.row {
+  @include flexbox();
+  justify-content: space-between;
+  width: 100%;
+}
+
+.left-column {
+  width: 46%;
+}
+
+.right-column {
+  width: 46%;
+}
+
+.three-column {
+  width: 33.33%
+}

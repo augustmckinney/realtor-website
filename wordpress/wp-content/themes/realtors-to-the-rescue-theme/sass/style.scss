@@ -1,7 +1,7 @@
 /*!
 Theme Name: Realtors to The Rescue
 Theme URI: http://underscores.me/
-Author: Team Flare
+Author: Team Flair
 Author URI: http://underscores.me/
 Description: Description
 Version: 1.0.0
@@ -104,3 +104,20 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Media
 --------------------------------------------------------------*/
 @import "media/media";
+
+/*--------------------------------------------------------------
+# Grids
+--------------------------------------------------------------*/
+@import "layout/grids";
+
+
+//Custom
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+@import "layout/footer";
+
+/*--------------------------------------------------------------
+# HomePage
+--------------------------------------------------------------*/
+@import "layout/homepage";

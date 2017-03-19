@@ -13,12 +13,29 @@
 
 	</div><!-- #content -->
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
+	<footer class="site-footer" role="contentinfo">
+		<!--
+    Sign Up for Newsletter
+    <div class="footer-newsletter">
+      <form action="">
+        <label>Newsletter Sign-Up</label>
+        <input type="text" name="email" placeholder="Enter Email">
+        <input type="submit" value="Subscribe">
+      </form>
+    </div> 
+    --> 
+
+    <!--Middle-->
+    <div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'realtors-to-the-rescue' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'realtors-to-the-rescue' ), 'WordPress' ); ?></a>
 			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'realtors-to-the-rescue' ), 'realtors-to-the-rescue', '<a href="https://automattic.com/" rel="designer">Team Flare</a>' ); ?>
-		</div><!-- .site-info -->
+			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'realtors-to-the-rescue' ), 'realtors-to-the-rescue', '<a href="https://automattic.com/" rel="designer">Team Flair</a>' ); ?>
+		</div>
+
+    <!--Bottom-->
+    <div class="footer-bottom">
+      <p>&copy; 2017 – <?php echo date('Y'); ?> Realtors&reg; To The Rescue.  All rights reserved.</p>
+    </div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 

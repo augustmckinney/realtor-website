@@ -1,0 +1,31 @@
+.homepage {
+
+  h1 {
+    margin-bottom: 0;
+    margin-top: 78px;
+    text-align: center;
+    text-transform: uppercase;
+
+    &:after {
+      content: url(img/deco.png);
+      display: block;
+    }
+  }
+
+  h3 {
+    margin-top: 8px;
+    text-align: center;
+  }
+
+  .about,
+  .campaigns,
+  .help,
+  .events,
+  .sponsors {
+    margin: $desktop-gutter;
+  }
+
+  .about .row {
+    justify-content: space-between;
+  }
+}
